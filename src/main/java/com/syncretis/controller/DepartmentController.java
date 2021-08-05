@@ -17,6 +17,7 @@ public class DepartmentController {
     @GetMapping("/departments")
     List<DepartmentDto> all() {
         return departmentService.getAll();
+
     }
 
     @GetMapping("/departments/{id}")
